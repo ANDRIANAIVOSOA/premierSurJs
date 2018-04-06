@@ -15,7 +15,7 @@ let height=0;
 generer.addEventListener("click",function(){
 	grandeGrille.innerHTML ="";
 	let tailleValeur=taille.value;
-	if(tailleValeur<=10){
+	if(tailleValeur<=10 && tailleValeur>=0){
 			width= tailleParDefaut/tailleValeur;
 		height=width;
 		//grandeGrille.innerHTML += '<div class="petiteGrille"></div>'
