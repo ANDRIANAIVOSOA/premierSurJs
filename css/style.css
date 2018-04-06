@@ -1,0 +1,206 @@
+body{
+	margin:0px auto;
+	color: #222;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	text-align: right;
+	margin-top: 0px;
+	vertical-align: top;
+	display: inline-block;	
+}
+header a{
+	color: rgba(0,0,0,0.9);
+}
+.lien:hover{
+	text-decoration: underline;
+}
+ul{
+	list-style: none;
+	display:flex;
+	justify-content: flex-end;
+
+}
+
+li{
+	margin-right: 25px;
+}
+
+#connection{
+	color:white;
+	border-radius: 2px;
+	background: blue;
+	text-align: center;
+	padding: 4px 9px 6px 9px;
+	font-size: 14px; 
+}
+
+a{
+	text-decoration: none;
+
+}
+
+
+#container{
+		margin: auto;
+		height: 500px;
+		width: 100%;
+}
+
+#afficherContainer {
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	border-radius: 5px 0px 5px 0px;	
+	width: 500px;
+	height: 50px;
+	font-family: Impact, Charcoal, sans-serif;
+	background: #748A00;
+	z-index: 55;
+}
+
+/* debut pupup */
+#modalContent {
+	background: rgba(0,0,0,0.2);
+	position: absolute;
+	z-index: 9000 ;
+	left : 0px ;
+	top : 0px ;
+	width: 100% ;
+	height: 100% ;
+	display: block ;
+
+}
+#modal {
+	width: 500px ;
+	height: 200px ;
+	background: orange ;
+	margin: auto ;
+	margin-top: 200px ;
+	padding-top: 50px;
+	text-align: center;
+}
+
+/*fin pupup*/
+
+
+#logo{
+	text-align: center;
+	height: 233px;
+	display: inline-block;
+	width: 100%;
+}
+#logo img{
+	height: 190px;
+	margin-top: 40px;
+}
+
+#recherche{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	height: 40px;
+
+}
+#inputrech{
+	height: 33px;
+	border: 0;
+	width: 503px;
+	outline: none;
+}
+#recherche img{
+	height: 35px;
+	vertical-align: top;
+	width: 40px;
+}
+#divrech {
+	width: 570px;
+	height: 37px;
+	border:1px solid #e4e4e4;
+	border-radius: 1px;
+	display: inline-block;
+	padding-top: 3px;
+	box-shadow: 1px 2px rgba(100,100,100,0.4);
+}
+#divrech:hover{
+	box-shadow: 1px 3px rgba(0,0,0,0.4);
+}
+
+center {
+	width: 100%;
+	height: 40px;
+	padding-top:25px; 
+
+}
+center input{
+	background-color: #f2f2f2;
+	border-radius: 2px;
+	border: 1px solid #f2f2f2;
+	color: rgba(0,0,0,0.8);
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	height: 32px;
+	line-height: 27px;
+	text-align: center;
+	margin-right: 5px;
+}
+center input:hover{
+	border: 2px solid #e4e4e4;
+	color:black;
+}
+#phrase{
+	text-align: center;
+	height: 50px;
+	display: inline-block;
+	width: 100%;
+}
+footer{
+	background: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	color: #222;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+footer div{
+	padding-top: 13px;
+	height: 33px;
+	width: 100%; 
+	border-top: 0.2px solid #e4e4e4;
+	
+		
+}
+#Madagascar span{
+	margin-left: 10px;
+}
+#contact{
+	display: flex;
+	justify-content: space-between;
+	
+}
+#contact aside{
+	margin-left: 10px;
+	margin-right: 20px;
+}
+#contact a:hover{
+	text-decoration: underline;
+}
+
+aside span{
+	margin-right: 7px;
+}
+footer a{
+	color: #222;
+}
+
+
